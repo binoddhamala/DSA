@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=34;
+        console.log(a);
+       // create a function binod()
+        function binod(){
+            console.log("Hello everyone I am Binod Dhamala") ;
+        }
+        //crate a object
+        let hello={
+            b:32,
+            c:45
+        }
+       // function  inside the object
+       let ram={
+        func:function practice(number){
+            console.log("the number is:"+number);
+        }
+       }
+      //event  handling in javascript
+      document.addEventListener("click",function(click){
+        console.log("Clicked");
+        alert("Hello");
+      })
+      //for confirm event in javascript
+      document.addEventListener("click",function(click){
+        console.log("clicked");
+        confirm("Are you sure want to close this page?");
+
+      })
+    </script>
+   <!---- display the date-->
+   <button type="button"
+   onclick="document.getElementById('demo').innerHTML = Date()">
+   Click me to display Date and Time.</button>
+   <p id="demo"></p>
+</body>
+</html>
